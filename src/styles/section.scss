@@ -1,0 +1,23 @@
+$spacing-size: 15px;
+$border-color: #dddddd;
+
+.section {
+  width: 100%;
+  padding: $spacing-size;
+  box-sizing: border-box;
+
+  .title {
+    padding: $spacing-size 0;
+    font-size: 1.5em;
+    font-family: "American Typewriter";
+    border-bottom: 1px solid $border-color;
+
+    .toggle-button {
+      margin-right: $spacing-size;
+    }
+  }
+
+  .content {
+    padding-top: $spacing-size;
+  }
+}
